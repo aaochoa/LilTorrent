@@ -23,12 +23,12 @@ The main componets are:
 1. Tracker (aka. Broker)
           Is the central component of the architecture. Its function is just know who has
           what music.
-         to launch it 
-          ./Broker [Port to listen to the peers]
+        to launch it: 
+        ./Broker [Port to listen to the peers]
 2. Peer
-          Is something that works as a client and a server at the same time. The peers have the music and they are in charge 
+          Is something that works as a client and a server at the same time. The peers have the music and they are         in charge 
           of sending them to the requesters.
-          To launch it
-          ./CLient [Ip Broker] [Port where the broker is listen to the peers] [Client ip] [Puerto para la escucha] Temp         [an int]
+        To launch it:
+        ./CLient [Ip Broker] [Port where the broker is listen to the peers] [Client ip] [Puerto para la escucha] Temp         [an int]
         
           Temp = is the directory where the music is stored by default
